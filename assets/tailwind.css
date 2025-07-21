@@ -1,0 +1,47 @@
+/* stylelint-disable unknownAtRules */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body, html {
+  font-family: 'Montserrat', sans-serif;
+}
+nav.primary-menu {
+  gap: 30px;
+}
+.info-contato svg {
+  width: 24px;
+}
+section.Contato-section .container {
+  padding-inline: 100px;
+}
+@keyframes bump {
+  0% { transform: scale(1); }
+  50% { transform: scale(0.9); }
+  100% { transform: scale(1); }
+}
+button.swiper-button-next::after, button.swiper-button-prev::after {
+  color: #AEAEAE !important;
+  font-size: 25px !important;
+  font-weight: bold !important;
+}
+.swiper-button-prev {
+  left: -40px !important;
+}
+.swiper-button-next {
+  right: -40px !important;
+}
+.bump {
+  animation: bump 200ms ease;
+}
+@media screen and (max-width: 768px) {
+  .swiper-button-prev {
+    left: -10px !important;
+  }
+  .swiper-button-next {
+    right: -10px !important;
+  }
+  section.Contato-section .container {
+    padding-inline: 20px;
+  }
+}
