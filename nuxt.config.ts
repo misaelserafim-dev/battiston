@@ -1,3 +1,4 @@
+// nuxt.config.ts
 export default defineNuxtConfig({
   postcss: {
     plugins: {
@@ -5,7 +6,7 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
- 
+
   app: {
     head: {
       title: 'Battiston Propaganda',
@@ -23,4 +24,7 @@ export default defineNuxtConfig({
     '@/assets/tailwind.css',
   ],
 
+  ssr: false,
+  build: {
+  }
 })

@@ -1,0 +1,1 @@
+import{_ as t,c as n,o,l as r}from"./Chdoe7FP.js";const s={},a={class:"bg-primary text-white font-semibold text-base leading-none tracking-normal px-4 py-1.5 hover:bg-primary/90 transition rounded-full flex items-center justify-center duration-300 ease-in-out"};function c(e,i){return o(),n("button",a,[r(e.$slots,"default")])}const l=t(s,[["render",c]]);export{l as _};
